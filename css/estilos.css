@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&display=swap');
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{font-family: 'Klee One', cursive;}
+/*<————————pagina principal———————>*/
+header { background-color: black;}
+
+h1{
+    background-color: black; color: coral;
+}
+h1 span {
+    color: gold;
+}
+.linksDelMenu {
+     background-color: black; 
+     color: gold;
+      text-align: center;
+    }
+.nombreDeBurguer {
+    background-color: black ;
+     color: coral; 
+     text-align: center;
+    }
+.explicacionDeBurguer { background-color: black;
+     color: gold;text-align: center;
+    }
+    .padre{display: flex;}
+    /*<————————carrusel———————>*/
+body{
+    background:black;
+  }
+  
+  section.awSlider .carousel{
+    display:table;
+    z-index:2;
+    -moz-box-shadow: 0 0 4px #444;
+      -webkit-box-shadow: 0 0 4px #444;
+      box-shadow: 0 0 15px rgba(1,1,1,.5);
+  }
+  
+  section.awSlider{
+    margin:30px auto;
+    padding:30px;
+    position:relative;
+    display:table;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  section.awSlider:hover > img{
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity:1;
+  }
+  
+  section.awSlider img{
+     pointer-events: none;
+  }
+  
+  section.awSlider > img{
+    position:absolute;
+    top:30px;
+    z-index:1;
+    transition:all .3s;
+    filter: blur(1.8vw);
+    -webkit-filter: blur(2vw);
+    -moz-filter: blur(2vw); 
+    -o-filter: blur(2vw); 
+    -ms-filter: blur(2vw);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity:.5;
+  }
+/*<————————combos———————>*/
+/*<————————grids———————>*/
+.combos-grids{
+    display: grid;
+    grid-template-columns: repeat (4 , 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas:" uno dos" 
+                        "tres cuatro ";}
+    .cajaUno{
+        grid-area: uno;
+        background-color:black;
+        width: 40vh;
+        height: 40vh;
+    }
+    .cajaDos{
+        grid-area: dos;
+        background-color: black;
+        width: 40%;
+        height: 40%;
+    }
+    .cajaTres{
+        grid-area: tres;
+        background-color: black;
+        width: 40%;
+        height: 40%;
+    }
+    .cajaCuatro{
+        grid-area: cuatro;
+        background-color: black;
+        width: 10px;
+        height: 10px;
+    }
+   
+/*<————————section———————>*/
+/*<————————nostros———————>*/
+/*<————————promociones———————>*/
+/*<————————contacto———————>*/
+.form{color: blanchedalmond;}
+/*<————————footer———————>*/
+.derechosYLinks{color: blanchedalmond;}
+footer {font-family: 'Klee One', cursive;}

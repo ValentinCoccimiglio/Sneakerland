@@ -1,0 +1,70 @@
+*{ margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: linear-gradient(70deg, black, white);
+    }
+  /*<————————PRINCIPAL PAG———————>*/
+  /*<————————nav manu———————>*/
+ #navbarNav{
+        top: 0px;
+       background-color:transparent;
+       justify-content: center;
+       
+    }
+  /*<————————Principal———————>*/
+  #imaginaca {
+      max-width: 100%;
+  }
+  #atencionCliente{
+      width: 100%;
+      height: 100%;
+        .atencionCliente-soporteTecnico{
+         width: 25%;
+          height: 25%;
+          margin-left: 12.5%;
+          margin-top: 2%;
+          box-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+        }
+        .atencionCliente-envioFree{
+            width: 25%;
+            height: 25%;
+            margin-left: 12.5%;
+            margin-top: 2%;
+            box-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+        }
+    }
+    #box{
+        justify-items: center;
+      margin-top: 5%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 60%;
+      grid-template-areas:
+             "uno   dos"
+             "tres cuatro ";
+        .cajaUno{
+            grid-area: uno;
+            width: 100%;
+            height: 85%;
+        }
+        .cajaDos{
+            grid-area: dos;
+            width: 100%;
+            height: 85%;
+        }
+        .cajaTres{
+            grid-area: tres;
+            width: 100%;
+            height: 85%;
+        }
+        .cajaCuatro{
+            grid-area: cuatro;
+            width:100%;
+            height: 85%;
+        }
+    }
+
+.derechos-links {
+    margin-top: 5%;
+    justify-items: center
+}
